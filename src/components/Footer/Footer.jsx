@@ -45,7 +45,8 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400"
             >
-              <i className="fab fa-instagram">
+              <i className="fab fa-instagram" >
+              
                 <FaInstagram />
               </i>
             </Link>
@@ -84,7 +85,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/contact"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Contact
