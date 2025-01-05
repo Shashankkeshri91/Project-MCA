@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="shadow-md w-full fixed top-0 left-0 z-50 bg-white border-b border-gray-200">
       <nav className="w-full flex items-center justify-between px-4 py-3 md:px-10">
         {/* Logo */}
-        <div className="text-2xl font-semibold hover:cursor-pointer hover:text-blue-500">Logo</div>
+        <Link to={"/"}><div className="text-2xl font-semibold hover:cursor-pointer hover:text-blue-500"> Logo</div></Link>
 
         {/* Hamburger Menu */}
         <div
@@ -29,7 +29,7 @@ const Navbar = () => {
         >
           <li className="my-2 lg:my-0">
             <Link
-              to="/home"
+              to="/"
               className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
               onClick={() => setIsMenuOpen(false)}
             >
