@@ -69,7 +69,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <Link
-                to="/home"
+                to="/"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Home
@@ -77,7 +77,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/blog"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Blogs
@@ -93,10 +93,18 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/contact"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Join us
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/services"
+                className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
+              >
+                Services
               </Link>
             </li>
           </ul>
@@ -104,7 +112,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <Link
-                to="/"
+                to="/term-and-conditions"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Terms & Conditions
@@ -112,7 +120,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/cancellation-and-refund-policy"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Cancellation & Refund Policy
@@ -120,7 +128,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/privacy-policy"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Privacy Policy
@@ -128,7 +136,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/shipping-and-delivery-policy"
                 className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-white"
               >
                 Shipping & Delivery Policy

@@ -1,11 +1,12 @@
-import { MdMail } from 'react-icons/md';  // Importing the Mail icon from React Icons
+import { MdMail } from "react-icons/md"; // Importing the Mail icon from React Icons
+import Carousel from "../Carousel/Carousel";
 
 const Hero = () => {
   return (
-    <section className="mt-10 sm:mt-12 lg:mt-16 px-5 sm:px-6 lg:px-8">
-      <div className="flex flex-col lg:flex-row lg:items-center lg:gap-12 max-w-6xl mx-auto">
+    <section className="mt-10 sm:mt-12 lg:mt-16 px-5 sm:px-6 lg:px-16">
+      <div className="flex flex-col lg:flex-row lg:items-start lg:gap-12 max-w-[100rem] mx-auto">
         {/* Left section with heading, paragraph, and input */}
-        <div className="lg:w-1/2 mb-8 lg:mb-0">
+        <div className="lg:w-1/2 flex flex-col justify-start lg:pl-12 lg:pt-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">
             Building digital products & brands.
           </h1>
@@ -31,13 +32,15 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right section for future image */}
-        <div className="lg:w-1/2">
-          <div className="bg-gray-300 h-64 w-full rounded-md"></div>
+        {/* Right section with Carousel */}
+        <div className="lg:w-1/2 w-full flex justify-center lg:justify-end">
+          <div className="w-full sm:max-w-[400px] lg:max-w-[600px] lg:h-[500px]">
+            <Carousel />
+          </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
