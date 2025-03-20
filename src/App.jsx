@@ -6,7 +6,8 @@ import Service from "./Pages/Services/Service";
 import Blog from "./Pages/Blog/Blog";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Carousel from "./components/Carousel/Carousel";
+// import Carousel from "./components/Carousel/Carousel";
+// import About from "./components/About Us/About";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
             <Route path="/services" element={<Service />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/carousel" element={<Carousel />} />
+            {/* <Route path="/carousel" element={<Carousel />} /> */}
+            {/* <Route path="/about" element={<About />} /> */}
           </Routes>
         </main>
         <Footer />

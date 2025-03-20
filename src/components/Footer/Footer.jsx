@@ -45,9 +45,9 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400"
             >
-              <i className="fab fa-instagram" >
+              <i className="fab fa-instagram"  >
               
-                <FaInstagram />
+                <FaInstagram title="shashank.keshri"/>
               </i>
             </Link>
             <Link to="/" className="text-white hover:text-gray-400">
@@ -172,7 +172,7 @@ const Footer = () => {
         <Link
           className="text-white relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full hover:text-gray-400"
           to="https://www.linkedin.com/in/shashank-keshri-981993217/"
-          title="ShashankKeshri"
+          title="Shashank Keshri"
           target="_blank"
           rel="noopener noreferrer"
         >

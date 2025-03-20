@@ -51,7 +51,7 @@ const Navbar = () => {
               className="relative after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
               onClick={() => setIsMenuOpen(false)}
             >
-              Blogs
+              Blog
             </Link>
           </li>
           <li className="my-2 lg:my-0">
