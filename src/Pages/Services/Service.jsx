@@ -1,8 +1,8 @@
-
+import NotFound from "../NotFound/NotFound"
 const Service = () => {
   return (
     <div>
-      Hello, I am Service Page
+      <NotFound />
     </div>
   )
 }

@@ -1,4 +1,3 @@
-// import React from 'react'
 
 const WhyUs = () => {
   return (
@@ -17,7 +16,6 @@ const WhyUs = () => {
           <h2 className="title-font font-regular text-2xl text-gray-900">Cutting-Edge Technology</h2>
         </div>
       </div>
-
       <div className="p-4 md:w-1/4 sm:w-1/2">
         <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
           <div className="flex justify-center">
@@ -52,4 +50,4 @@ const WhyUs = () => {
   )
 }
 
-export default WhyUs
+export default WhyUs;

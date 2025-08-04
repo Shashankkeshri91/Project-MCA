@@ -3,7 +3,7 @@
 const Blog = () => {
   return (
     <div>
-      Hello, I am Blog Page
+      {/* Hello, I am Blog Page */}
     </div>
   )
 }

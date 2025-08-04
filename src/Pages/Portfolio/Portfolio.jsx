@@ -3,7 +3,7 @@
 const Portfolio = () => {
   return (
     <div>
-      Hello, I am Portfolio Page
+      {/* Hello, I am Portfolio Page */}
     </div>
   )
 }
