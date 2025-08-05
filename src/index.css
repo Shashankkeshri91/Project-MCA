@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .animate-fade-slide {
+    @apply opacity-100 translate-y-0;
+  }
+}
