@@ -3,9 +3,10 @@ import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 import ShashankPic from "../../assets/ShashankPic.jpg";
 import GauravPic from "../../assets/Gaurav.jpg";
-import RohitRanjan from "../../assets/RohitRanjan.jpg";
+import RohitRanjanPic from "../../assets/RohitRanjan.jpg";
 import AdityaPic from "../../assets/AdityPic.jpg";
 import AnkitPic from "../../assets/AnkitJha.jpg";
+import UpendraPic from "../../assets/UpendraPic.jpg";
 
 const teamMembers = [
   {
@@ -22,8 +23,8 @@ const teamMembers = [
   },
   {
     name: "Rohit Ranjan",
-    role: "Software Engineer",
-    image: RohitRanjan,
+    role: "Core Strategist",
+    image: RohitRanjanPic,
     link: "https://www.linkedin.com/in/rohit-ranjan-816545258/",
   },
   {
@@ -38,6 +39,12 @@ const teamMembers = [
     role: "Video Editing Specialist",
     image: AnkitPic,
     link: "https://www.linkedin.com/in/ankit-jha-0a61b8252/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    name: "Upendra Gupta",
+    role: "Backend Developer",
+    image: UpendraPic,
+    link: "https://www.linkedin.com/in/upendra-gupta-64045921b/",
   },
 ];
 
